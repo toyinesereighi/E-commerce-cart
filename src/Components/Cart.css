@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: #f6f7f8;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin-left: 150px;
+  font-weight: 500px;
+  font-size: 18px;
+  border-bottom: 1px solid #f6f7f8;
+}
+
+.product .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 30px;
+  margin-left: 500px;
+}
+
+.product .price .qty {
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.main-product {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #f6f7f8;
+  margin-left: 150px;
+}
+
+.main-product .xx {
+  color: #ff4252;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-product .pic {
+  margin-left: 30px;
+}
+
+.main-product .up {
+  margin-top: 30px;
+}
+
+.main-product .nike {
+  margin-left: 30px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.main-product .box {
+  background-color: #f6f7f8;
+  margin-left: 100px;
+  margin-right: 110px;
+  width: 90px;
+  height: 30px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-product .box .color {
+  color: #33a0ff;
+}
+
+.main-product .box .space {
+  margin: 10px;
+}
+
+.check-out {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.check-out .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 160px;
+}
+
+.check-out button {
+  background-color: #33a0ff;
+  color: #f6f7f8;
+  border: 0px;
+  height: 30px;
+  width: 70px;
+}
+
+.check-out button :hover {
+  background-color: blue;
+}
+
+.check-out .voucher {
+  border-top: 2px solid #f6f7f8;
+  border-bottom: 2px solid #f6f7f8;
+  border-left: 2px solid #f6f7f8;
+  height: 30px;
+  width: 150px;
+}
+
+.check-out .voucher p {
+  font-size: 12px;
+  color: #2626269d;
+  margin-left: 5px;
+}
+
+.check-out .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #f6f7f8;
+  margin-left: 300px;
+}
+
+.check-out .total .total-1 {
+  font-size: 13px;
+}
+
+.check-out .total .total-2 {
+  margin-left: 150px;
+  font-size: 13px;
+}
+
+.bill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 740px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -45px;
+}
+
+.bill .cash {
+  margin-left: 140px;
+}
+
+.check-btn {
+  margin-left: 740px;
+  background-color: #33a0ff;
+  color: #f6f7f8;
+  border: none;
+  height: 30px;
+  width: 270px;
+}
+
+.check-btn :hover {
+  background-color: blue;
+}
+/*# sourceMappingURL=Cart.css.map */
